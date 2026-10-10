@@ -70,6 +70,7 @@
     "./Endpoint": "./src/Endpoint/index.ts",
     "./Neon": "./src/Neon/index.ts",
     "./Neon/*": "./src/Neon/*/index.ts",
+    "./Notion": "./src/Notion/index.ts",
     "./Hetzner": "./src/Hetzner/index.ts",
     "./Fly": "./src/Fly/index.ts",
     "./ACME": "./src/ACME/index.ts",
@@ -292,6 +293,11 @@
         "types": "./lib/Neon/*/index.d.ts",
         "bun": "./src/Neon/*/index.ts",
         "default": "./lib/Neon/*/index.js"
+      },
+      "./Notion": {
+        "types": "./lib/Notion/index.d.ts",
+        "bun": "./src/Notion/index.ts",
+        "default": "./lib/Notion/index.js"
       },
       "./Hetzner": {
         "types": "./lib/Hetzner/index.d.ts",
